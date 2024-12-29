@@ -6,64 +6,70 @@
 
 ## 📋 Overview  
 
-The **Arena Booking System** is a web-based platform designed to simplify the process of booking arenas for various events. Users can search for available arenas, view schedules, and make bookings. The system supports administrators with features like arena management and booking analytics.  
+The **Arena Booking System** is a robust, scalable web-based platform designed to manage arena bookings for various events, built using a microservices architecture. The system allows users to search for available arenas, view schedules, and make bookings. Administrators can manage arenas, handle booking conflicts, and generate reports. This platform leverages key microservices principles such as API Gateway, role-based access control, multithreading, and scalability for handling high traffic efficiently.  
+
+The system’s backend services are deployed in Docker containers, ensuring portability, easy scalability, and consistency across different environments.
 
 ---
 
 ## 🚀 Features  
 
 ### User Features:  
-- Browse and search for arenas.  
-- Check real-time arena availability.  
-- Make, modify, or cancel bookings.  
-- View booking history.  
+- **Browse and search for arenas** based on location, type, and availability.  
+- **Real-time arena availability check** for instant booking decisions.  
+- **Book, modify, or cancel bookings** with seamless workflow.  
+- **View booking history** to track past reservations.  
 
 ### Admin Features:  
-- Add, update, or remove arenas.  
-- Manage booking requests and conflicts.  
-- Generate usage and booking reports.  
+- **Add, update, or remove arenas** from the system.  
+- **Manage booking requests** and resolve conflicts efficiently.  
+- **Generate detailed reports** on arena usage and booking trends.  
 
-### Additional Features:  
-- Authentication and Authorization (JWT).  
-- Notifications for booking confirmation and cancellations.  
-- Responsive and user-friendly UI.  
+### Advanced Features:  
+- **Role-Based Access Control (RBAC)**: Users have different levels of access, ensuring secure operation for both admins and regular users.  
+- **API Gateway**: A single entry point for all services, managing traffic and enhancing security.  
+- **Authentication & Authorization (JWT)**: Secure login for users and admins, preventing unauthorized access.  
+- **Multithreading**: Support for handling concurrent requests, ensuring high performance in a multi-user environment.  
+- **Notifications**: Real-time updates for booking confirmations, cancellations, and reminders.  
+- **Scalable Architecture**: Built with Docker and microservices for scalability and fault tolerance.
 
 ---
 
 ## 🛠️ Technologies  
 
 ### Backend:  
-- **Java Spring Boot** for RESTful APIs.  
-- **MySQL** for database management.  
-- **Hibernate** for ORM.  
-- **Spring Security** for authentication and authorization.  
+- **Java Spring Boot** for building microservices-based RESTful APIs.  
+- **MySQL** for managing relational data with Hibernate ORM.  
+- **Spring Security** for robust authentication and role-based authorization.  
+- **API Gateway** (using Spring Cloud Gateway) for routing requests to respective microservices.  
+- **RabbitMQ/Kafka** (optional for asynchronous messaging) for inter-service communication.  
 
 ### Frontend:  
-- **Angular** for building dynamic and responsive UI.  
+- **Angular** for a dynamic and responsive user interface, with components for booking management, schedules, and user interaction.  
 
 ### Other Tools:  
-- **Docker** for containerization.  
-- **Swagger** for API documentation.  
+- **Docker** for containerizing each microservice and managing multi-container applications using Docker Compose.  
+- **Swagger** for API documentation, providing an interactive and self-updating guide to all API endpoints.  
 
 ---
 
 ## 📑 API Documentation  
 
 API documentation is available via Swagger.  
-- Run the application and access `http://localhost:8080/swagger-ui.html`.  
+- After running the application, access the documentation at `http://localhost:8080/swagger-ui.html`.
 
 ---
 
 ## ⚙️ Installation  
 
 ### Prerequisites:  
-- Java 11+  
-- Docker & Docker Compose  
-- MySQL  
+- **Java 11+**  
+- **Docker & Docker Compose**  
+- **MySQL** (if running outside of Docker)  
 
-### Steps:  
+### Steps to Run Locally:  
 
-1. Clone the repository:  
+1. **Clone the repository:**  
    ```bash  
    git clone https://github.com/yourusername/arena-booking-system.git  
-   cd arena-booking-system  
+   cd arena-booking-system
