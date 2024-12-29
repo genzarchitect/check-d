@@ -1,7 +1,7 @@
 # Arena Booking System  
 
 ![Project Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)  
-![Technologies](https://img.shields.io/badge/Technologies-Java%2C%20Spring%20Boot%2C%20MySQL%2C%20MongoDB%2C%20Angular%2C%20Docker%2C%20Swagger%2C%20Razorpay-blue.svg)
+![Technologies](https://img.shields.io/badge/Technologies-Java%2C%20Spring%20Boot%2C%20MySQL%2C%20MongoDB%2C%20Angular%2C%20Docker-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)  
 
 ## 📋 Overview  
