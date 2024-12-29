@@ -1,14 +1,14 @@
 # Arena Booking System  
 
 ![Project Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)  
-![Technologies](https://img.shields.io/badge/Technologies-Java%20Spring%20Boot%2C%20MySQL%2C%20Angular%2C%20Docker%2C%20Swagger-blue.svg)  
+![Technologies](https://img.shields.io/badge/Technologies-Java%2C%20Spring%20Boot%2C%20MySQL%2C%20MongoDB%2C%20Angular%2C%20Docker%2C%20Swagger%2C%20Razorpay-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)  
 
 ## 📋 Overview  
 
-The **Arena Booking System** is a robust, scalable web-based platform designed to manage arena bookings for various events, built using a microservices architecture. The system allows users to search for available arenas, view schedules, and make bookings. Administrators can manage arenas, handle booking conflicts, and generate reports. This platform leverages key microservices principles such as API Gateway, role-based access control, multithreading, and scalability for handling high traffic efficiently.  
+The **Arena Booking System** is a robust, scalable web platform built using microservices architecture designed to manage arena bookings for various events. Users can search for available arenas, view schedules, and make bookings. Administrators can manage arenas, handle booking conflicts, and generate reports. The platform integrates with **Razorpay** for payment processing and uses **MongoDB** for flexible data management.  
 
-The system’s backend services are deployed in Docker containers, ensuring portability, easy scalability, and consistency across different environments.
+This system leverages key microservices principles such as **API Gateway**, **role-based access control**, **multithreading**, and **scalability** to handle high traffic efficiently. Backend services are deployed in **Docker containers** to ensure portability, scalability, and consistency across environments.
 
 ---
 
@@ -17,8 +17,9 @@ The system’s backend services are deployed in Docker containers, ensuring port
 ### User Features:  
 - **Browse and search for arenas** based on location, type, and availability.  
 - **Real-time arena availability check** for instant booking decisions.  
-- **Book, modify, or cancel bookings** with seamless workflow.  
+- **Book, modify, or cancel bookings** with a seamless workflow.  
 - **View booking history** to track past reservations.  
+- **Payment Integration**: Process payments securely through **Razorpay**.  
 
 ### Admin Features:  
 - **Add, update, or remove arenas** from the system.  
@@ -31,7 +32,9 @@ The system’s backend services are deployed in Docker containers, ensuring port
 - **Authentication & Authorization (JWT)**: Secure login for users and admins, preventing unauthorized access.  
 - **Multithreading**: Support for handling concurrent requests, ensuring high performance in a multi-user environment.  
 - **Notifications**: Real-time updates for booking confirmations, cancellations, and reminders.  
-- **Scalable Architecture**: Built with Docker and microservices for scalability and fault tolerance.
+- **Scalable Architecture**: Built with Docker and microservices for scalability and fault tolerance.  
+- **MongoDB Integration**: Stores flexible, non-relational data for quick access and efficient management.  
+- **Razorpay Integration**: Handles secure payment processing for arena bookings.
 
 ---
 
@@ -40,9 +43,11 @@ The system’s backend services are deployed in Docker containers, ensuring port
 ### Backend:  
 - **Java Spring Boot** for building microservices-based RESTful APIs.  
 - **MySQL** for managing relational data with Hibernate ORM.  
+- **MongoDB** for flexible, non-relational data storage (for certain services).  
 - **Spring Security** for robust authentication and role-based authorization.  
 - **API Gateway** (using Spring Cloud Gateway) for routing requests to respective microservices.  
 - **RabbitMQ/Kafka** (optional for asynchronous messaging) for inter-service communication.  
+- **Razorpay** for payment gateway integration to handle secure payments.  
 
 ### Frontend:  
 - **Angular** for a dynamic and responsive user interface, with components for booking management, schedules, and user interaction.  
@@ -66,6 +71,7 @@ API documentation is available via Swagger.
 - **Java 11+**  
 - **Docker & Docker Compose**  
 - **MySQL** (if running outside of Docker)  
+- **MongoDB** (configured for services that require non-relational data storage)  
 
 ### Steps to Run Locally:  
 
