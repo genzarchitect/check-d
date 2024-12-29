@@ -54,12 +54,12 @@ This system leverages key microservices principles such as **API Gateway**, **Ro
 ## 📷 Project Images  
 
 ### 1. **User Interface:**
-![UI](https://via.placeholder.com/400x300.png?text=UI+Screenshot)  
+<img src="https://via.placeholder.com/400x300.png?text=UI+Screenshot" width="400" height="300">
 
 *This screenshot shows the user interface for searching and booking arenas.*
 
 ### 2. **Admin Dashboard:**
-<img src="https://via.placeholder.com/600x400.png?text=Admin+Dashboard" width="400" height="300">  
+<img src="https://via.placeholder.com/600x400.png?text=Admin+Dashboard" width="500" height="350">  
 
 *The admin dashboard for managing arenas and bookings.*
 
@@ -72,6 +72,7 @@ This system leverages key microservices principles such as **API Gateway**, **Ro
 <img src="https://via.placeholder.com/400x300.png?text=Payment+Integration" width="200" height="150">  
 
 *Payment integration with Razorpay for secure transactions.*
+
 
 ---
 
