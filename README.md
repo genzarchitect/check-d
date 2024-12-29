@@ -6,9 +6,9 @@
 
 ## 📋 Overview  
 
-The **Arena Booking System** is a robust, scalable web platform built using microservices architecture designed to manage arena bookings for various events. Users can search for available arenas, view schedules, and make bookings. Administrators can manage arenas, handle booking conflicts, and generate reports. The platform integrates with **Razorpay** for payment processing and uses **MongoDB** for flexible data management.  
+The **Arena Booking System** is a robust, scalable web platform built using microservices architecture designed to manage arena bookings for various events. Users can search for available arenas, view schedules, and make bookings. Owners can manage arenas, handle booking conflicts, and generate reports. The platform integrates with **Razorpay** for payment processing.  
 
-This system leverages key microservices principles such as **API Gateway**, **role-based access control**, **multithreading**, and **scalability** to handle high traffic efficiently. Backend services are deployed in **Docker containers** to ensure portability, scalability, and consistency across environments.
+This system leverages key microservices principles such as **API Gateway**, **Role-based access control**, **Multithreading**, and **Scalability** to handle high traffic efficiently. Backend services are deployed in **Docker containers** to ensure portability, scalability, and consistency across environments.
 
 ---
 
@@ -23,17 +23,14 @@ This system leverages key microservices principles such as **API Gateway**, **ro
 
 ### Admin Features:  
 - **Add, update, or remove arenas** from the system.  
-- **Manage booking requests** and resolve conflicts efficiently.  
-- **Generate detailed reports** on arena usage and booking trends.  
+- **Manage booking requests** and resolve conflicts efficiently.   
 
 ### Advanced Features:  
 - **Role-Based Access Control (RBAC)**: Users have different levels of access, ensuring secure operation for both admins and regular users.  
 - **API Gateway**: A single entry point for all services, managing traffic and enhancing security.  
 - **Authentication & Authorization (JWT)**: Secure login for users and admins, preventing unauthorized access.  
 - **Multithreading**: Support for handling concurrent requests, ensuring high performance in a multi-user environment.  
-- **Notifications**: Real-time updates for booking confirmations, cancellations, and reminders.  
 - **Scalable Architecture**: Built with Docker and microservices for scalability and fault tolerance.  
-- **MongoDB Integration**: Stores flexible, non-relational data for quick access and efficient management.  
 - **Razorpay Integration**: Handles secure payment processing for arena bookings.
 
 ---
@@ -45,23 +42,12 @@ This system leverages key microservices principles such as **API Gateway**, **ro
 - **MySQL** for managing relational data with Hibernate ORM.  
 - **MongoDB** for flexible, non-relational data storage (for certain services).  
 - **Spring Security** for robust authentication and role-based authorization.  
-- **API Gateway** (using Spring Cloud Gateway) for routing requests to respective microservices.  
-- **RabbitMQ/Kafka** (optional for asynchronous messaging) for inter-service communication.  
-- **Razorpay** for payment gateway integration to handle secure payments.  
 
 ### Frontend:  
 - **Angular** for a dynamic and responsive user interface, with components for booking management, schedules, and user interaction.  
 
 ### Other Tools:  
 - **Docker** for containerizing each microservice and managing multi-container applications using Docker Compose.  
-- **Swagger** for API documentation, providing an interactive and self-updating guide to all API endpoints.  
-
----
-
-## 📑 API Documentation  
-
-API documentation is available via Swagger.  
-- After running the application, access the documentation at `http://localhost:8080/swagger-ui.html`.
 
 ---
 
