@@ -1,7 +1,7 @@
 # Arena Booking System  
 
 ![Project Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)  
-![Technologies](https://img.shields.io/badge/Technologies-Java%2C%20Spring%20Boot%2C%20MySQL%2C%20MongoDB%2C%20Angular%2C%20Docker-blue.svg)
+![Technologies](https://img.shields.io/badge/Technologies-Java%2C%20Spring%20Boot%2C%20MySQL%2C%20MongoDB%2C%20Angular%2C%20Docker-blue.svg)  
 ![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)  
 
 ## 📋 Overview  
@@ -51,6 +51,30 @@ This system leverages key microservices principles such as **API Gateway**, **Ro
 
 ---
 
+## 📷 Project Images  
+
+### 1. **User Interface:**
+![UI](https://via.placeholder.com/400x300.png?text=UI+Screenshot)  
+
+*This screenshot shows the user interface for searching and booking arenas.*
+
+### 2. **Admin Dashboard:**
+<img src="https://via.placeholder.com/600x400.png?text=Admin+Dashboard" width="400" height="300">  
+
+*The admin dashboard for managing arenas and bookings.*
+
+### 3. **Booking Flow:**
+<img src="https://via.placeholder.com/800x600.png?text=Booking+Flow" width="600" height="400">  
+
+*Overview of the booking flow process.*
+
+### 4. **Payment Integration:**
+<img src="https://via.placeholder.com/400x300.png?text=Payment+Integration" width="200" height="150">  
+
+*Payment integration with Razorpay for secure transactions.*
+
+---
+
 ## ⚙️ Installation  
 
 ### Prerequisites:  
@@ -64,4 +88,4 @@ This system leverages key microservices principles such as **API Gateway**, **Ro
 1. **Clone the repository:**  
    ```bash  
    git clone https://github.com/yourusername/arena-booking-system.git  
-   cd arena-booking-system
+   cd arena-booking-system  
