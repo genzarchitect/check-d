@@ -18,6 +18,14 @@ Watch demo of the Arena Booking System:
 https://github.com/user-attachments/assets/ee936d84-e902-4790-816e-345b2e78b545
 
 
+## 🖋️ Design  
+
+### **System Architecture**  
+The application is designed using a microservices architecture, ensuring scalability and modularity.
+
+<img src="https://github.com/user-attachments/assets/c1a73644-5b91-4fd9-bac1-1c9d20ac60d5" width="600" height="400">  
+
+
 ## 🚀 Features  
 
 ### User Features:  
