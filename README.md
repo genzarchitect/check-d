@@ -67,27 +67,25 @@ The application is designed using a microservices architecture, ensuring scalabi
 
 ## 📷 Project Images  
 
-### 1. **User Interface:**
-<img src="https://via.placeholder.com/400x300.png?text=UI+Screenshot" width="400" height="300">
+### 1. **Getting Started:**  
+<img src="images/start.png" width="600" height="400">  
 
-*This screenshot shows the user interface for searching and booking arenas.*
+*The starting page of the Arena Booking System.*
 
-### 2. **Admin Dashboard:**
-<img src="https://via.placeholder.com/600x400.png?text=Admin+Dashboard" width="500" height="350">  
+### 2. **All View Dashboard:**  
+<img src="images/all-view.png" width="600" height="400">  
 
-*The admin dashboard for managing arenas and bookings.*
+*Dashboard displaying all available features.*
 
-### 3. **Booking Flow:**
-<img src="https://via.placeholder.com/800x600.png?text=Booking+Flow" width="600" height="400">  
+### 3. **Ground View:**  
+<img src="images/ground-v.png" width="600" height="400">  
 
-*Overview of the booking flow process.*
+*Overview of available arenas for booking.*
 
-### 4. **Payment Integration:**
-<img src="https://via.placeholder.com/400x300.png?text=Payment+Integration" width="200" height="150">  
+### 4. **Payment Integration:**  
+<img src="images/payment-im.png" width="600" height="400">  
 
 *Payment integration with Razorpay for secure transactions.*
-
-
 ---
 
 ## ⚙️ Installation  
