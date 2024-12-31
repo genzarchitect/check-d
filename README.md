@@ -14,7 +14,7 @@ This system leverages key microservices principles such as **API Gateway**, **Ro
 ## 🎥 View Video  
 
 Watch demo of the Arena Booking System:
-[![Watch on YouTube](https://img.youtube.com/vi/your_video_id/0.jpg)](https://youtu.be/mFkaoft0x5g)  
+<iframe width="560" height="315" src="https://youtu.be/mFkaoft0x5g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 🚀 Features  
 
